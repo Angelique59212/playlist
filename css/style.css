@@ -7,3 +7,20 @@
 html {
     font-size: 62.5%;
 }
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container-second {
+    display: flex;
+    justify-content: center;
+}
+
+#container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
