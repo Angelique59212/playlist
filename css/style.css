@@ -6,21 +6,44 @@
 
 html {
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 
-#container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#container-second {
-    display: flex;
-    justify-content: center;
-}
-
-#container div {
+main, #container-second {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10vh 5vw 40vh;
+    font-size: 2rem;
+}
+
+h1 {
+    margin-bottom: 5vh;
+}
+
+#container-second {
+    background-color: darkturquoise;
+    padding: 2vh 5vw;
+}
+
+#container-second div {
+    margin: .8rem;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+select {
+    text-align: center;
+    font-size: 2rem;
 }
