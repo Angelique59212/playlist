@@ -1,15 +1,17 @@
-// create objectArray
-
 // playlist
-let Playlist = function (genre, artist, title){
+let Playlist = function (genre){
     this.genre = genre;
-    this.artist = artist;
-    this.title = title;
 
     // new title verif si tilte exist ??? sinon create,
     // si genre exist target genre sinon create,
     // si artist exist target art. sinon create
-    //
+
+    this.newTitle = function (title, artiste) {
+        // check if title exist
+
+        // add title in genre and artist
+
+    }
 
     this.optionGenre = function (){
         $('#genre').append("<option value=" + this.genre + ">" + this.genre + "</option>")
@@ -24,8 +26,3 @@ let Playlist = function (genre, artist, title){
     }
 
 }
-
-let pop = new Playlist("Pop", "Amel Bent", "Un deux trois");
-pop.optionGenre();
-pop.optionArtist();
-pop.optionTitle();

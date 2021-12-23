@@ -19,7 +19,7 @@ main, #container-second {
 main {
     width: 100%;
     background-color: black;
-    color: white;
+    color: #fff;
     padding: 10vh 5vw 40vh;
     font-size: 2rem;
 }
@@ -50,6 +50,7 @@ select {
     text-align: center;
     font-size: 2rem;
 }
+
 
 #image-back {
     width: 100%;
