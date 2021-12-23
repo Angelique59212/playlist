@@ -1,6 +1,9 @@
-// create objectArray
+// create new playlist ( param json ?)
+// let new_playlist = new Playlist("Mes titres du moment");
 
-let pop = new Playlist("Pop", "Amel Bent", "Un deux trois");
-pop.optionGenre();
-pop.optionArtist();
-pop.optionTitle();
+// let elem = $('#test');
+//
+// $.get("titleList.json", function (info){
+//     elem.first().html(JSON.stringify(info))
+// });
+//

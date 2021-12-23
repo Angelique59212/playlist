@@ -1,0 +1,15 @@
+{
+  "playlist": "name",
+  "item": [
+    {
+      "genre": "pop",
+      "title": "Un deux trois",
+      "artiste": "Amel Bent"
+    },
+    {
+      "genre": "pop",
+      "title": "In The Air Tonight",
+      "artiste": "Phil Collins"
+    }
+  ]
+}
